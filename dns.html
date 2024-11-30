@@ -1,163 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="dns.css">
-    <title>Responsive Navbar</title>
-</head>
-
+    <title>FamilyShield - Parental Control</title>
+    <link rel="stylesheet" href="dns.css">  </head>
 <body>
     <header>
         <div class="container">
-            <input type="checkbox" name="" id="check">
-            
+            <input type="checkbox" id="check">
             <div class="logo-container">
-                <img src="./6cb0f6f7-2493-4000-b4e7-9fab092a8fee.webp" style="height: 50px;border-radius: 5px; width: 50px;" alt="Logo">
-            </div>
+                <img src="logo.webp" alt="FamilyShield Logo" height="50" width="50"> </div>
+            <nav> <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/features">Features</a></li>
+                    <li><a href="/about">About</a></li> </ul>
 
-            <div class="nav-btn">
-                <div class="nav-links">
-                    <ul>
-                        <li class="nav-link" style="--i: .6s">
-                            <a href="#">Home</a>
-                        </li>
-                        <li class="nav-link" style="--i: .85s">
-                            <a href="#">Menu<i class="fas fa-caret-down"></i></a>
-                            <div class="dropdown">
-                                <ul>
-                                    <li class="dropdown-link">
-                                        <a href="#">Link 1</a>
-                                    </li>
-                                    <li class="dropdown-link">
-                                        <a href="#">Link 2</a>
-                                    </li>
-                                    <li class="dropdown-link">
-                                        <a href="#">Link 3<i class="fas fa-caret-down"></i></a>
-                                        <div class="dropdown second">
-                                            <ul>
-                                                <li class="dropdown-link">
-                                                    <a href="#">Link 1</a>
-                                                </li>
-                                                <li class="dropdown-link">
-                                                    <a href="#">Link 2</a>
-                                                </li>
-                                                <li class="dropdown-link">
-                                                    <a href="#">Link 3</a>
-                                                </li>
-                                                <li class="dropdown-link">
-                                                    <a href="#">More<i class="fas fa-caret-down"></i></a>
-                                                    <div class="dropdown second">
-                                                        <ul>
-                                                            <li class="dropdown-link">
-                                                                <a href="#">Link 1</a>
-                                                            </li>
-                                                            <li class="dropdown-link">
-                                                                <a href="#">Link 2</a>
-                                                            </li>
-                                                            <li class="dropdown-link">
-                                                                <a href="#">Link 3</a>
-                                                            </li>
-                                                            <div class="arrow"></div>
-                                                        </ul>
-                                                    </div>
-                                                </li>
-                                                <div class="arrow"></div>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="dropdown-link">
-                                        <a href="#">Link 4</a>
-                                    </li>
-                                    <div class="arrow"></div>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="nav-link" style="--i: 1.1s">
-                            <a href="#">Services<i class="fas fa-caret-down"></i></a>
-                            <div class="dropdown">
-                                <ul>
-                                    <li class="dropdown-link">
-                                        <a href="#">Link 1</a>
-                                    </li>
-                                    <li class="dropdown-link">
-                                        <a href="#">Link 2</a>
-                                    </li>
-                                    <li class="dropdown-link">
-                                        <a href="#">Link 3<i class="fas fa-caret-down"></i></a>
-                                        <div class="dropdown second">
-                                            <ul>
-                                                <li class="dropdown-link">
-                                                    <a href="#">Link 1</a>
-                                                </li>
-                                                <li class="dropdown-link">
-                                                    <a href="#">Link 2</a>
-                                                </li>
-                                                <li class="dropdown-link">
-                                                    <a href="#">Link 3</a>
-                                                </li>
-                                                <li class="dropdown-link">
-                                                    <a href="#">More<i class="fas fa-caret-down"></i></a>
-                                                    <div class="dropdown second">
-                                                        <ul>
-                                                            <li class="dropdown-link">
-                                                                <a href="#">Link 1</a>
-                                                            </li>
-                                                            <li class="dropdown-link">
-                                                                <a href="#">Link 2</a>
-                                                            </li>
-                                                            <li class="dropdown-link">
-                                                                <a href="#">Link 3</a>
-                                                            </li>
-                                                            <div class="arrow"></div>
-                                                        </ul>
-                                                    </div>
-                                                </li>
-                                                <div class="arrow"></div>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="dropdown-link">
-                                        <a href="#">Link 4</a>
-                                    </li>
-                                    <div class="arrow"></div>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="nav-link" style="--i: 1.35s">
-                            <a href="#">About</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="log-sign" style="--i: 1.8s">
-                    <a href="dns4.html" class="btn transparent">Dashboard</a>
-                    <a href="dns3.html" class="btn solid" style="width: 150px;display: flex; justify-content: center;">My Account</a>
-                </div>
+            <div class="log-sign"> <a href="/dashboard" class="btn transparent">Dashboard</a> <a href="/my-account" class="btn solid">My Account</a>
             </div>
+                <label for="check" class="hamburger-menu-container">
+                    <div class="hamburger-menu">
+                        <div></div>
+                </div></label>
 
-            <div class="hamburger-menu-container">
-                <div class="hamburger-menu">
-                    <div></div>
-                </div>
-            </div>
+        </nav>
         </div>
     </header>
+
     <main>
-        <section>
+        <section class="hero">
             <div class="overlay"></div>
             <video autoplay muted loop playsinline class="video-background">
-                <source src="/vecteezy_particle-animated-background_21255317.mp4" type="video/mp4">
-                Your browser does not support the video tag.
+                <source src="background-video.mp4" type="video/mp4"> Your browser does not support the video tag.
             </video>
-            
+            <div class="hero-content">
+                <h1>Protecting Your Family Online</h1>
+                <p>FamilyShield makes it easy to create a safer online environment for your children.</p>
+                <a href="/dashboard" class="btn solid">Get Started</a> </div>
         </section>
-        <div class="doge"><h1 style="background-color: white; z-index: 2000;">Welcome to the Future</h1></div>
     </main>
-    
-</body>
 
+
+</body>
 </html>
